@@ -1,0 +1,106 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+section{
+padding-top:10px;
+}
+
+p.logo{
+margin-top:10px;
+}
+
+.container {
+    max-width: 100%;
+	margin: 0 auto;
+  }
+
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4{
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+@media (min-width:993px){
+
+p.logo {
+    font-size: 60px;
+}}
+
+@media (max-width:992px) and (min-width:435px){
+p.logo {
+    font-size: 38px;
+    margin-top: 20px;
+}
+.col-md-6 {
+    width: 50%;
+}
+}
+
+@media (max-width:434px){
+.col-md-6 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+p.logo {
+    font-size: 38px;
+    margin-top: 20px;
+}
+}
